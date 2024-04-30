@@ -1,0 +1,14 @@
+.wd-box {
+  .block {
+    @include styleclass('block');
+  }
+  .flex {
+    @include styleclass('flex');
+  }
+  .grid {
+    @include styleclass('grid');
+  }
+  .hidden {
+    @include styleclass('hidden');
+  }
+}

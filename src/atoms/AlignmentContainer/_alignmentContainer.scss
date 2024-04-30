@@ -1,0 +1,8 @@
+.wd-alignment-container {
+  .wd-alignment-container__item {
+    margin-right: $alignmentContainerWD;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}
